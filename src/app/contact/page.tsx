@@ -77,24 +77,6 @@ export default function ContactPage() {
             </div>
         </div>
       </div>
-      
-      <div className="mt-20">
-        {mapImage && (
-            <div className="relative rounded-lg overflow-hidden h-64 md:h-96">
-                <Image 
-                    src={mapImage.imageUrl}
-                    alt={mapImage.description}
-                    fill
-                    data-ai-hint={mapImage.imageHint}
-                    className="object-cover grayscale"
-                />
-                <div className="absolute inset-0 bg-black/50"></div>
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                    <MapPin className="h-12 w-12 text-primary animate-pulse" />
-                </div>
-            </div>
-        )}
-      </div>
     </div>
   );
 }
