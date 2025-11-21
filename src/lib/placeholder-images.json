@@ -15,13 +15,13 @@
     {
       "id": "work-gallery-1",
       "description": "Owner's picture for work gallery",
-      "imageUrl": "/my_profile.png",
+      "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaXJld2FsbCUyMGNvbmZpZ3VyYXRpb258ZW58MHx8fHwxNzYzNzQ2NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "threat intelligence"
     },
     {
       "id": "work-gallery-2",
       "description": "Owner's picture for work gallery",
-      "imageUrl": "/my_profile.png",
+      "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaXJld2FsbCUyMGNvbmZpZ3VyYXRpb258ZW58MHx8fHwxNzYzNzQ2NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "data encryption"
     },
     {
