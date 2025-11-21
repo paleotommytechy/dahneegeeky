@@ -3,25 +3,25 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { ArrowRight, Code, MonitorSmartphone, Palette } from 'lucide-react';
+import { ArrowRight, ShieldCheck, Bug, Network } from 'lucide-react';
 
 const ownerHeroImage = PlaceHolderImages.find(p => p.id === 'owner-hero');
 
 const featuredServices = [
   {
-    icon: MonitorSmartphone,
-    title: 'Web Design',
-    description: 'Crafting beautiful and functional websites tailored to your needs.',
+    icon: ShieldCheck,
+    title: 'Threat Intelligence',
+    description: 'Analyzing and mitigating threats before they impact your organization.',
   },
   {
-    icon: Palette,
-    title: 'UI/UX Design',
-    description: 'Designing intuitive and engaging user experiences for your digital products.',
+    icon: Bug,
+    title: 'Vulnerability Management',
+    description: 'Identifying, evaluating, and remediating security vulnerabilities in systems and networks.',
   },
   {
-    icon: Code,
-    title: 'Frontend Development',
-    description: 'Building responsive and performant web applications with modern technologies.',
+    icon: Network,
+    title: 'Network Security',
+    description: 'Protecting network infrastructure from unauthorized access, misuse, or theft.',
   },
 ];
 
@@ -39,10 +39,10 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6 text-center md:text-left">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline tracking-tighter">
-                <span className="text-primary text-glow-primary">Creative Developer</span> & Designer
+                <span className="text-primary text-glow-primary">Cybersecurity Expert</span> & IT Professional
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto md:mx-0">
-                I build beautiful, functional, and user-centric digital experiences. Let's turn your ideas into reality.
+                I am Alade Daniel, a visionary and driven IT professional specializing in securing digital landscapes.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                 <Button asChild size="lg" className="hover:glow-primary transition-shadow">
@@ -77,7 +77,7 @@ export default function Home() {
           <div className="text-center space-y-4 mb-12">
             <h2 className="text-3xl md:text-4xl font-bold font-headline">What I Do</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              I offer a range of services to help you achieve your digital goals.
+              I offer a range of services to protect and secure your digital assets.
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">

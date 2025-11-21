@@ -14,7 +14,6 @@ const navLinks = [
   { href: '/case-studies', label: 'Case Studies' },
   { href: '/work', label: 'Work' },
   { href: '/contact', label: 'Contact' },
-  { href: '/admin', label: 'Admin' },
 ];
 
 export default function Header() {
@@ -26,7 +25,7 @@ export default function Header() {
       <div className="container flex h-14 items-center">
         <div className="mr-4 flex items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <span className="font-bold font-headline text-lg text-primary">Neonfolio</span>
+            <span className="font-bold font-headline text-lg text-primary">Dhneegeek</span>
           </Link>
         </div>
 

@@ -3,22 +3,20 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Github, Twitter, Linkedin, Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
+import { Github, Twitter, Linkedin, Phone, Mail, MapPin } from 'lucide-react';
 import Link from 'next/link';
 
 const mapImage = PlaceHolderImages.find(p => p.id === 'map-location');
 
 const contactDetails = [
-    { icon: Phone, text: '+1 (123) 456-7890', href: 'tel:+11234567890' },
-    { icon: Mail, text: 'hello@neonfolio.com', href: 'mailto:hello@neonfolio.com' },
-    { icon: MapPin, text: '123 Creative Lane, Web City, WC 12345', href: '#' },
-    { icon: MessageCircle, text: 'WhatsApp', href: 'https://wa.me/11234567890' },
+    { icon: Phone, text: '+234 813 166 9399', href: 'tel:+2348131669399' },
+    { icon: Mail, text: 'dahneegeek@gmail.com', href: 'mailto:dahneegeek@gmail.com' },
+    { icon: MapPin, text: 'Asokoro, FCT Abuja, Nigeria', href: '#' },
 ];
 
 const socialLinks = [
-  { icon: Twitter, href: '#', name: 'Twitter' },
-  { icon: Github, href: '#', name: 'GitHub' },
-  { icon: Linkedin, href: '#', name: 'LinkedIn' },
+  { icon: Github, href: 'https://github.com/Dahneegeeky', name: 'GitHub' },
+  { icon: Linkedin, href: 'https://www.linkedin.com/in/aladtun', name: 'LinkedIn' },
 ];
 
 export default function ContactPage() {

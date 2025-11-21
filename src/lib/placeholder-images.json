@@ -3,74 +3,74 @@
     {
       "id": "owner-hero",
       "description": "Owner's picture for the hero section",
-      "imageUrl": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjM2NTE5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "professional portrait"
+      "imageUrl": "https://images.unsplash.com/photo-1550684376-efcbd6e3f031?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjeWJlcnNlY3VyaXR5fGVufDB8fHx8MTc2Mzc0NjM5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cybersecurity expert"
     },
     {
       "id": "owner-about",
       "description": "Owner's picture for the about page",
-      "imageUrl": "https://images.unsplash.com/photo-1522152302542-71a8e5172aa1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwZXJzb24lMjB3b3JraW5nfGVufDB8fHx8MTc2MzY5MTgwMHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "person working"
+      "imageUrl": "https://images.unsplash.com/photo-1624555130581-1d9cca783bc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjeWJlcnNlY3VyaXR5JTIwZGV2ZWxvcGVyfGVufDB8fHx8MTc2Mzc0NjM5MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hacker typing"
     },
     {
       "id": "case-study-1",
       "description": "Preview image for case study 1",
-      "imageUrl": "https://images.unsplash.com/photo-1737641624486-7846df8528dc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx3ZWJzaXRlJTIwc2NyZWVuc2hvdHxlbnwwfHx8fDE3NjM2MjA5NDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "website screenshot"
+      "imageUrl": "https://images.unsplash.com/photo-1544890225-2fde0e66b7d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxuZXR3b3JrJTIwc2VjdXJpdHl8ZW58MHx8fHwxNzYzNzQ2NDIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "network security"
     },
     {
       "id": "case-study-2",
       "description": "Preview image for case study 2",
-      "imageUrl": "https://images.unsplash.com/photo-1601972602237-8c79241e468b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtb2JpbGUlMjBhcHB8ZW58MHx8fHwxNzYzNjc4MjkzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "mobile app"
+      "imageUrl": "https://images.unsplash.com/photo-1599658880128-06708343f87e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMHZ1bG5lcmFiaWxpdHl8ZW58MHx8fHwxNzYzNzQ2NDIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "software vulnerability"
     },
     {
       "id": "case-study-3",
       "description": "Preview image for case study 3",
-      "imageUrl": "https://images.unsplash.com/photo-1643421551137-2d84e7a28cc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXNoYm9hcmQlMjB1aXxlbnwwfHx8fDE3NjM2NjcwNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "dashboard ui"
+      "imageUrl": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaGlzaGluZyUyMGVtYWlsfGVufDB8fHx8MTc2Mzc0NjQyMHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phishing email"
     },
     {
       "id": "work-gallery-1",
       "description": "Work gallery item 1",
-      "imageUrl": "https://images.unsplash.com/photo-1636811714614-b2738deac0eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhYnN0cmFjdCUyMGRlc2lnbnxlbnwwfHx8fDE3NjM2ODUxOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "abstract design"
+      "imageUrl": "https://images.unsplash.com/photo-1614064548237-02f3f7154387?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aHJlYXQlMjBpbnRlbGxpZ2VuY2V8ZW58MHx8fHwxNzYzNzQ2NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "threat intelligence"
     },
     {
       "id": "work-gallery-2",
       "description": "Work gallery item 2",
-      "imageUrl": "https://images.unsplash.com/photo-1634578194401-dd15f628f328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxicmFuZGluZyUyMGxvZ298ZW58MHx8fHwxNzYzNjIzMjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "branding logo"
+      "imageUrl": "https://images.unsplash.com/photo-1526374965328-5f61d4dc18c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXRhJTIwZW5jcnlwdGlvbnxlbnwwfHx8fDE3NjM3NDY0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "data encryption"
     },
     {
       "id": "work-gallery-3",
       "description": "Work gallery item 3",
-      "imageUrl": "https://images.unsplash.com/photo-1618331833071-ce81bd50d300?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwb3N0ZXIlMjBkZXNpZ258ZW58MHx8fHwxNzYzNjQxMjczfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "poster design"
+      "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaXJld2FsbCUyMGNvbmZpZ3VyYXRpb258ZW58MHx8fHwxNzYzNzQ2NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "firewall configuration"
     },
     {
       "id": "work-gallery-4",
       "description": "Work gallery item 4",
-      "imageUrl": "https://images.unsplash.com/photo-1644329770639-1a20809b82a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHwzZCUyMG1vZGVsfGVufDB8fHx8MTc2MzYyMDM3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "3d model"
+      "imageUrl": "https://images.unsplash.com/photo-1633613286848-e6f43bbaf5f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBcHBsaWNhdGlvbiUyMFNlY3VyaXR5fGVufDB8fHx8MTc2Mzc0NjQ0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "application security"
     },
     {
       "id": "work-gallery-5",
       "description": "Work gallery item 5",
-      "imageUrl": "https://images.unsplash.com/photo-1698434155927-227d66f6e1cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHx1eCUyMHdpcmVmcmFtZXxlbnwwfHx8fDE3NjM3MDEwNzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "ux wireframe"
+      "imageUrl": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxTT0MlMjBkYXNoYm9hcmR8ZW58MHx8fHwxNzYzNzQ2NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "soc dashboard"
     },
     {
       "id": "work-gallery-6",
       "description": "Work gallery item 6",
-      "imageUrl": "https://images.unsplash.com/photo-1763243101634-967b4e7984f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxpbGx1c3RyYXRpb24lMjBhcnR8ZW58MHx8fHwxNzYzNzAxMDcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "illustration art"
+      "imageUrl": "https://images.unsplash.com/photo-1563206767-5b18f218e8de?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZW5ldHJhdGlvbiUyMHRlc3Rpbmd8ZW58MHx8fHwxNzYzNzQ2NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "penetration testing"
     },
     {
       "id": "map-location",
       "description": "Static map for contact page",
-      "imageUrl": "https://images.unsplash.com/photo-1603466183710-70b84997a93f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2MzYyNDg2MXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "city map"
+      "imageUrl": "https://images.unsplash.com/photo-1587595431688-348123985f54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBQlVKQSUyMG1hcHxlbnwwfHx8fDE3NjM3NDY0ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "abuja map"
     }
   ]
 }

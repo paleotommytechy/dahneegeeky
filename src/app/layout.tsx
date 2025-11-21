@@ -6,8 +6,8 @@ import Footer from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Neonfolio',
-  description: 'A modern, responsive personal portfolio website.',
+  title: 'Alade Daniel | Cybersecurity Expert',
+  description: 'The personal portfolio of Alade Daniel (Dhneegeek), a cybersecurity and IT professional.',
 };
 
 export default function RootLayout({
