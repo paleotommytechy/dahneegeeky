@@ -4,14 +4,15 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { useState } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Badge } from '@/components/ui/badge';
+import AnimationSuggestionTool from '@/components/animation-suggestion-tool';
 
 const galleryItems = [
-  { id: 'work-gallery-1', title: 'Abstract Sphere', description: 'A 3D abstract rendering exploring light and shadow.', tools: ['Blender', 'Photoshop'], role: '3D Artist' },
-  { id: 'work-gallery-2', title: 'Modern Branding', description: 'Complete branding package for a tech startup.', tools: ['Figma', 'Illustrator'], role: 'Brand Designer' },
-  { id: 'work-gallery-3', title: 'Event Poster', description: 'Promotional poster for a local music festival.', tools: ['Photoshop', 'InDesign'], role: 'Graphic Designer' },
-  { id: 'work-gallery-4', title: 'Product Mockup', description: 'Realistic 3D mockup for a new cosmetic product line.', tools: ['Cinema 4D', 'Octane Render'], role: '3D Visualizer' },
-  { id: 'work-gallery-5', title: 'UX Wireframes', description: 'Low-fidelity wireframes for a new mobile banking app.', tools: ['Figma', 'Whimsical'], role: 'UX Designer' },
-  { id: 'work-gallery-6', title: 'Character Illustration', description: 'A stylized character illustration for a childrens book.', tools: ['Procreate', 'Photoshop'], role: 'Illustrator' },
+  { id: 'work-gallery-1', title: 'Threat Intelligence', description: 'Analyzing and mitigating threats before they impact your organization.', tools: ['Splunk', 'Wireshark'], role: 'Security Analyst' },
+  { id: 'work-gallery-2', title: 'Data Encryption', description: 'Implementing robust encryption to protect data at rest and in transit.', tools: ['OpenSSL', 'HashCalc'], role: 'Security Engineer' },
+  { id: 'work-gallery-3', title: 'Firewall Configuration', description: 'Configuring and managing firewalls to control network traffic and prevent unauthorized access.', tools: ['pfSense', 'iptables'], role: 'Network Security Specialist' },
+  { id: 'work-gallery-4', title: 'Application Security', description: 'Identifying and remediating security vulnerabilities in web and mobile applications.', tools: ['OWASP ZAP', 'Burp Suite'], role: 'Application Security Analyst' },
+  { id: 'work-gallery-5', title: 'SOC Dashboard', description: 'Developing and maintaining dashboards for real-time security monitoring.', tools: ['Splunk', 'Kibana'], role: 'SOC Analyst' },
+  { id: 'work-gallery-6', title: 'Penetration Testing', description: 'Performing authorized simulated cyberattacks on computer systems to evaluate their security.', tools: ['Metasploit', 'Nmap'], role: 'Penetration Tester' },
 ];
 
 type GalleryItem = (typeof galleryItems)[0];
@@ -27,38 +28,43 @@ export default function WorkGalleryPage() {
         <div className="text-center space-y-4 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold font-headline">Work Gallery</h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            A selection of my creative work. Hover over the images for a 3D effect and click to see details.
+            A selection of my cybersecurity projects. Click to see details.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 [perspective:1000px]">
-          {galleryItems.map((item) => {
-            const image = getImage(item.id);
-            return (
-              <div
-                key={item.id}
-                onClick={() => setSelectedItem(item)}
-                className="group relative rounded-lg overflow-hidden cursor-pointer transition-transform duration-500 hover:scale-105"
-                style={{ transformStyle: 'preserve-3d' }}
-              >
-                <div className="transition-transform duration-500 group-hover:[transform:rotateY(10deg)_rotateX(3deg)_translateZ(40px)]">
-                  {image && (
-                    <Image
-                      src={image.imageUrl}
-                      alt={image.description}
-                      width={600}
-                      height={400}
-                      data-ai-hint={image.imageHint}
-                      className="object-cover w-full h-full rounded-lg"
-                    />
-                  )}
-                  <div className="absolute inset-0 bg-black/50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
-                    <p className="text-white text-lg font-bold">{item.title}</p>
-                  </div>
+        <div className="grid md:grid-cols-12 gap-8">
+            <div className="md:col-span-8">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-8">
+                {galleryItems.map((item) => {
+                    const image = getImage(item.id);
+                    return (
+                    <div
+                        key={item.id}
+                        onClick={() => setSelectedItem(item)}
+                        className="group relative rounded-lg overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-105"
+                    >
+                        {image && (
+                            <Image
+                            src={image.imageUrl}
+                            alt={image.description}
+                            width={600}
+                            height={400}
+                            data-ai-hint={image.imageHint}
+                            className="object-cover w-full h-full aspect-[3/2] rounded-lg"
+                            />
+                        )}
+                        <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
+                            <h3 className="text-white text-lg font-bold text-center">{item.title}</h3>
+                            <p className="text-sm text-gray-300 mt-1 text-center">{item.role}</p>
+                        </div>
+                    </div>
+                    );
+                })}
                 </div>
-              </div>
-            );
-          })}
+            </div>
+            <div className="md:col-span-4">
+                <AnimationSuggestionTool />
+            </div>
         </div>
       </div>
 

@@ -13,45 +13,27 @@
       "imageHint": "hacker typing"
     },
     {
-      "id": "case-study-1",
-      "description": "Preview image for case study 1",
-      "imageUrl": "https://images.unsplash.com/photo-1544890225-2fde0e66b7d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxuZXR3b3JrJTIwc2VjdXJpdHl8ZW58MHx8fHwxNzYzNzQ2NDIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "network security"
-    },
-    {
-      "id": "case-study-2",
-      "description": "Preview image for case study 2",
-      "imageUrl": "https://images.unsplash.com/photo-1599658880128-06708343f87e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzb2Z0d2FyZSUyMHZ1bG5lcmFiaWxpdHl8ZW58MHx8fHwxNzYzNzQ2NDIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "software vulnerability"
-    },
-    {
-      "id": "case-study-3",
-      "description": "Preview image for case study 3",
-      "imageUrl": "https://images.unsplash.com/photo-1593642532454-e138e28a63f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwaGlzaGluZyUyMGVtYWlsfGVufDB8fHx8MTc2Mzc0NjQyMHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "phishing email"
-    },
-    {
       "id": "work-gallery-1",
-      "description": "Work gallery item 1",
-      "imageUrl": "https://images.unsplash.com/photo-1614064548237-02f3f7154387?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0aHJlYXQlMjBpbnRlbGxpZ2VuY2V8ZW58MHx8fHwxNzYzNzQ2NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Owner's picture for work gallery",
+      "imageUrl": "/my_profile.png",
       "imageHint": "threat intelligence"
     },
     {
       "id": "work-gallery-2",
-      "description": "Work gallery item 2",
-      "imageUrl": "https://images.unsplash.com/photo-1526374965328-5f61d4dc18c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxkYXRhJTIwZW5jcnlwdGlvbnxlbnwwfHx8fDE3NjM3NDY0NDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Owner's picture for work gallery",
+      "imageUrl": "/my_profile.png",
       "imageHint": "data encryption"
     },
     {
       "id": "work-gallery-3",
-      "description": "Work gallery item 3",
+      "description": "Preview image for case study 3",
       "imageUrl": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmaXJld2FsbCUyMGNvbmZpZ3VyYXRpb258ZW58MHx8fHwxNzYzNzQ2NDQwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "firewall configuration"
     },
     {
       "id": "work-gallery-4",
-      "description": "Work gallery item 4",
-      "imageUrl": "https://images.unsplash.com/photo-1633613286848-e6f43bbaf5f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxBcHBsaWNhdGlvbiUyMFNlY3VyaXR5fGVufDB8fHx8MTc2Mzc0NjQ0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Owner's picture for work gallery",
+      "imageUrl": "/my_profile.png",
       "imageHint": "application security"
     },
     {
