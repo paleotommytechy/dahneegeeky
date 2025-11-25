@@ -41,7 +41,7 @@ export default function AboutPage() {
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/20 rounded-full filter blur-lg"></div>
             <div className="absolute -top-4 -left-4 w-20 h-20 bg-primary/20 rounded-full filter blur-lg"></div>
           </div>
-          <h1 className="text-3xl font-bold font-headline mt-6">Alade Daniel (Dhneegeek)</h1>
+          <h1 className="text-3xl font-bold font-headline mt-6">Alade Tunde Adewumi (Dahneegeeky)</h1>
           <p className="text-muted-foreground">Cybersecurity & IT Professional</p>
         </div>
 
