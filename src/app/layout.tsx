@@ -8,6 +8,9 @@ import { Toaster } from "@/components/ui/toaster"
 export const metadata: Metadata = {
   title: 'Alade Tunde Adewumi | Cybersecurity Expert',
   description: 'The personal portfolio of Alade Tunde Adewumi (Dahneegeeky), a cybersecurity and IT professional.',
+  icons: {
+    icon: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
