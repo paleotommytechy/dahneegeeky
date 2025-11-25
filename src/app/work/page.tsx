@@ -4,7 +4,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { useState } from 'react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import { Badge } from '@/components/ui/badge';
-import AnimationSuggestionTool from '@/components/animation-suggestion-tool';
 
 const galleryItems = [
   { id: 'work-gallery-1', title: 'Threat Intelligence', description: 'Analyzing and mitigating threats before they impact your organization.', tools: ['Splunk', 'Wireshark'], role: 'Security Analyst' },
@@ -32,80 +31,73 @@ export default function WorkGalleryPage() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-12 gap-8">
-            <div className="md:col-span-8">
-                <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-8">
-                {galleryItems.map((item) => {
-                    const image = getImage(item.id);
-                    return (
-                    <div
-                        key={item.id}
-                        onClick={() => setSelectedItem(item)}
-                        className="group relative rounded-lg overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-105"
-                    >
-                        {image && (
-                            <Image
-                            src={image.imageUrl}
-                            alt={image.description}
-                            width={600}
-                            height={400}
-                            data-ai-hint={image.imageHint}
-                            className="object-cover w-full h-full aspect-[3/2] rounded-lg"
-                            />
-                        )}
-                        <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
-                            <h3 className="text-white text-lg font-bold text-center">{item.title}</h3>
-                            <p className="text-sm text-gray-300 mt-1 text-center">{item.role}</p>
-                        </div>
-                    </div>
-                    );
-                })}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {galleryItems.map((item) => {
+            const image = getImage(item.id);
+            return (
+              <div
+                key={item.id}
+                onClick={() => setSelectedItem(item)}
+                className="group relative rounded-lg overflow-hidden cursor-pointer transition-transform duration-300 hover:scale-105"
+              >
+                {image && (
+                  <Image
+                    src={image.imageUrl}
+                    alt={image.description}
+                    width={600}
+                    height={400}
+                    data-ai-hint={image.imageHint}
+                    className="object-cover w-full h-full aspect-[3/2] rounded-lg"
+                  />
+                )}
+                <div className="absolute inset-0 bg-black/60 flex flex-col items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg">
+                  <h3 className="text-white text-lg font-bold text-center">{item.title}</h3>
+                  <p className="text-sm text-gray-300 mt-1 text-center">{item.role}</p>
                 </div>
-            </div>
-            <div className="md:col-span-4">
-                <AnimationSuggestionTool />
-            </div>
+              </div>
+            );
+          })}
         </div>
       </div>
 
       <Dialog open={!!selectedItem} onOpenChange={(open) => !open && setSelectedItem(null)}>
         <DialogContent className="max-w-3xl bg-background border-primary/20">
-            {selectedItem && (
-                <>
-                <DialogHeader>
-                    <DialogTitle className="text-2xl font-headline text-primary">{selectedItem.title}</DialogTitle>
-                </DialogHeader>
-                <div className="grid md:grid-cols-2 gap-6 pt-4">
-                    <div>
-                    {getImage(selectedItem.id) && (
-                        <Image
-                            src={getImage(selectedItem.id)!.imageUrl}
-                            alt={getImage(selectedItem.id)!.description}
-                            width={600}
-                            height={400}
-                            data-ai-hint={getImage(selectedItem.id)!.imageHint}
-                            className="rounded-lg object-cover w-full"
-                        />
-                    )}
-                    </div>
-                    <div className="space-y-4">
-                    <p className="text-muted-foreground">{selectedItem.description}</p>
-                    <div>
-                        <h3 className="font-semibold text-foreground mb-2">Role</h3>
-                        <p className="text-muted-foreground">{selectedItem.role}</p>
-                    </div>
-                    <div>
-                        <h3 className="font-semibold text-foreground mb-2">Tools Used</h3>
-                        <div className="flex flex-wrap gap-2">
-                        {selectedItem.tools.map(tool => (
-                            <Badge key={tool} variant="secondary">{tool}</Badge>
-                        ))}
-                        </div>
-                    </div>
-                    </div>
+          {selectedItem && (
+            <>
+              <DialogHeader>
+                <DialogTitle className="text-2xl font-headline text-primary">{selectedItem.title}</DialogTitle>
+              </DialogHeader>
+              <div className="grid md:grid-cols-2 gap-6 pt-4">
+                <div>
+                  {getImage(selectedItem.id) && (
+                    <Image
+                      src={getImage(selectedItem.id)!.imageUrl}
+                      alt={getImage(selectedItem.id)!.description}
+                      width={600}
+                      height={400}
+                      data-ai-hint={getImage(selectedItem.id)!.imageHint}
+                      className="rounded-lg object-cover w-full"
+                    />
+                  )}
                 </div>
-                </>
-            )}
+                <div className="space-y-4">
+                  <p className="text-muted-foreground">{selectedItem.description}</p>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Role</h3>
+                    <p className="text-muted-foreground">{selectedItem.role}</p>
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Tools Used</h3>
+                    <div className="flex flex-wrap gap-2">
+                      {selectedItem.tools.map(tool => (
+                        <Badge key={tool} variant="secondary">{tool}</Badge>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </>
+          )}
         </DialogContent>
       </Dialog>
     </>
