@@ -6,8 +6,8 @@ import Footer from '@/components/layout/footer';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'Alade Daniel | Cybersecurity Expert',
-  description: 'The personal portfolio of Alade Daniel (Dhneegeek), a cybersecurity and IT professional.',
+  title: 'Alade Tunde Adewumi | Cybersecurity Expert',
+  description: 'The personal portfolio of Alade Tunde Adewumi (Dahneegeeky), a cybersecurity and IT professional.',
 };
 
 export default function RootLayout({

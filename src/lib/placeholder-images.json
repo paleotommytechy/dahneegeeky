@@ -3,13 +3,13 @@
     {
       "id": "owner-hero",
       "description": "Owner's picture for the hero section",
-      "imageUrl": "/my_profile.png",
+      "imageUrl": "/daniel.jpeg",
       "imageHint": "cybersecurity expert"
     },
     {
       "id": "owner-about",
       "description": "Owner's picture for the about page",
-      "imageUrl": "/my_profile.png",
+      "imageUrl": "/daniel.jpeg",
       "imageHint": "hacker typing"
     },
     {

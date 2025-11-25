@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-center md:text-left">
             <Link href="/" className="font-bold font-headline text-lg text-primary">
-              Dhneegeek
+              Dahneegeeky
             </Link>
             <p className="text-sm text-muted-foreground mt-2">
               Cybersecurity Expert Portfolio
@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Alade Daniel. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Alade Tunde Adewumi. All rights reserved.</p>
         </div>
       </div>
     </footer>

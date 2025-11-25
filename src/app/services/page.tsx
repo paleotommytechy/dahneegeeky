@@ -33,6 +33,11 @@ const services = [
     icon: Server,
     title: 'Email Gateway & Security',
     description: 'Implementing and managing secure email gateways to protect against phishing, malware, and other email-based threats.'
+  },
+  {
+    icon: Bug,
+    title: 'Bug Bounty',
+    description: 'Setting up and managing bug bounty programs to crowdsource vulnerability discovery from ethical hackers.'
   }
 ];
 
